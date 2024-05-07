@@ -26,8 +26,7 @@ export default function OkPage() {
                         </p>
                     </div>
                     <div className="w-full md:w-11/12 mx-auto flex justify-center gap-4 mt-10 mb-16">
-                        <Link href={'/login'} className="bg-transparent text-[#0085FF] border-[#0085FF] border-2 py-2 px-4 rounded-md text-sm">Continue to Login</Link>
-                        <button className="bg-[#186BAD] text-white py-2 px-4 rounded-md text-sm">Resend Confirmation Email</button>
+                        <Link href={'/login'} className="bg-[#186BAD] text-white py-2 px-4 rounded-md text-sm">Continue to Login</Link>
                     </div>
                 </div>
                 {/* <div className="w-full md:border md:shadow-lg rounded-md mt-6 mb-5 md:mb-0 p-3 flex justify-between">
